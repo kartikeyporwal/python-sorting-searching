@@ -1,6 +1,7 @@
 #Defining a function for linear search which take a list of items and a item to be searched as an input
 
 #importing shuffle from random module to shuffle list elements
+
 from random import shuffle
 
 def linear_search(alist, item):
@@ -18,4 +19,4 @@ def linear_search(alist, item):
 a = [i for i in range(200)]
 shuffle(a)
 
-print(linear_search(a, 76))
+print(linear_search(a, 599))
