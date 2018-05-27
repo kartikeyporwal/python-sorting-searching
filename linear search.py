@@ -16,7 +16,7 @@ def linear_search(alist, item):
             
     return found
 
-a = [i for i in range(200)]
+a = [i for i in range(250)]
 shuffle(a)
 
 print(linear_search(a, 599))
