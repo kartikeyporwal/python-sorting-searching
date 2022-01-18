@@ -18,4 +18,5 @@ def short_bubble_sort(alist):
 
     return alist
 
-print(short_bubble_sort([12,1,3,45,89,54,3,24,67,32,67,23]))
+
+print(short_bubble_sort([12, 1, 3, 45, 89, 54, 3, 24, 67, 32, 67, 23]))

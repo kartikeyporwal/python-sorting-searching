@@ -4,10 +4,11 @@ def selection_sort(alist):
         for i in range(1, last_pos+1):
             if alist[i] > alist[pos_max]:
                 pos_max = i
-                
+
         alist[last_pos], alist[pos_max] = alist[pos_max], alist[last_pos]
 
     return alist
+
 
 print(selection_sort([54, 24, 26, 17, 34, 6, 78, 98, 23, 12, 53]))
 
