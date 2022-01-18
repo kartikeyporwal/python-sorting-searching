@@ -2,7 +2,7 @@ import heapq
 
 array_to_sort = [54, 14, 549, 365, 74, 4, 25, 34]
 
-# initialise an empty array that will contain the sorted data
+# initialise an empty array that will contain the sorted data in ascending order
 sorted_array = []
 
 # heapify the array
