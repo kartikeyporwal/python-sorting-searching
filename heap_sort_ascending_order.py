@@ -1,3 +1,5 @@
+"Heap Sort in Ascending order implementation using min-heap"
+
 import heapq
 
 array_to_sort = [54, 14, 549, 365, 74, 4, 25, 34]
@@ -16,4 +18,3 @@ while array_to_sort:
 # print the sorted array
 # Output [4, 14, 25, 34, 54, 74, 365, 549]
 print(sorted_array)
-
